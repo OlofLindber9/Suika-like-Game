@@ -112,64 +112,8 @@ public class Model {
 
                                         }
                                     }
-                                        //}
-                                        /*else{
-                                            balls.get(i).setIntersectWithOtherBall(false);
-                                            balls.get(j).setIntersectWithOtherBall(false);
-                                                if(Math.abs(balls.get(i).mass - balls.get(j).mass) == 1) {
-                                                    if(balls.get(i).mass > balls.get(j).mass){
-                                                        balls.get(i).position_current = balls.get(i).position_current.add(n.multiply(0.45 * overlap * 0.001));
-                                                        balls.get(j).position_current = balls.get(j).position_current.subtract(n.multiply(0.55 * overlap * 0.001));
-                                                    }
-                                                    balls.get(i).position_current = balls.get(i).position_current.add(n.multiply(0.45 * overlap * 0.001));
-                                                    balls.get(j).position_current = balls.get(j).position_current.subtract(n.multiply(0.55 * overlap * 0.001));
-
-                                                }
-                                                if(Math.abs(balls.get(i).mass - balls.get(j).mass) == 2) {
-                                                    if(balls.get(i).mass > balls.get(j).mass){
-                                                        balls.get(i).position_current = balls.get(i).position_current.add(n.multiply(0.35 * overlap * 0.001));
-                                                        balls.get(j).position_current = balls.get(j).position_current.subtract(n.multiply(0.65 * overlap * 0.001));
-                                                    }
-                                                    balls.get(i).position_current = balls.get(i).position_current.add(n.multiply(0.65 * overlap * 0.001));
-                                                    balls.get(j).position_current = balls.get(j).position_current.subtract(n.multiply(0.35 * overlap * 0.001));
-                                                }
-                                                if(Math.abs(balls.get(i).mass - balls.get(j).mass) == 3) {
-                                                    if(balls.get(i).mass > balls.get(j).mass){
-                                                        balls.get(i).position_current = balls.get(i).position_current.add(n.multiply(0.80 * overlap * 0.001));
-                                                        balls.get(j).position_current = balls.get(j).position_current.subtract(n.multiply(0.20 * overlap * 0.001));
-                                                    }
-                                                    balls.get(i).position_current = balls.get(i).position_current.add(n.multiply(0.80 * overlap * 0.001));
-                                                    balls.get(j).position_current = balls.get(j).position_current.subtract(n.multiply(0.20 * overlap * 0.001));
-                                                }
-                                                if(Math.abs(balls.get(i).mass - balls.get(j).mass) == 4) {
-                                                    if(balls.get(i).mass > balls.get(j).mass){
-                                                        balls.get(i).position_current = balls.get(i).position_current.add(n.multiply(0.10 * overlap * 0.001));
-                                                        balls.get(j).position_current = balls.get(j).position_current.subtract(n.multiply(0.9 * overlap * 0.001));
-                                                    }
-                                                    balls.get(i).position_current = balls.get(i).position_current.add(n.multiply(0.9 * overlap * 0.001));
-                                                    balls.get(j).position_current = balls.get(j).position_current.subtract(n.multiply(0.1 * overlap * 0.001));
-                                                }
-                                                if(Math.abs(balls.get(i).mass - balls.get(j).mass) == 5) {
-                                                    if(balls.get(i).mass > balls.get(j).mass){
-                                                        balls.get(i).position_current = balls.get(i).position_current.add(n.multiply(0.05 * overlap * 0.001));
-                                                        balls.get(j).position_current = balls.get(j).position_current.subtract(n.multiply(0.95 * overlap * 0.001));
-                                                    }
-                                                    balls.get(i).position_current = balls.get(i).position_current.add(n.multiply(0.95 * overlap * 0.001));
-                                                    balls.get(j).position_current = balls.get(j).position_current.subtract(n.multiply(0.05 * overlap * 0.001));
-                                                }
-                                                if(Math.abs(balls.get(i).mass - balls.get(j).mass) == 6) {
-                                                    if(balls.get(i).mass > balls.get(j).mass){
-                                                        balls.get(i).position_current = balls.get(i).position_current.add(n.multiply(0 * overlap * 0.001));
-                                                        balls.get(j).position_current = balls.get(j).position_current.subtract(n.multiply(1 * overlap * 0.001));
-                                                    }
-                                                    balls.get(i).position_current = balls.get(i).position_current.add(n.multiply(1 * overlap * 0.001));
-                                                    balls.get(j).position_current = balls.get(j).position_current.subtract(n.multiply(0 * overlap * 0.001));
-                                                }
-                                        }
-                                    }*/
+                                    
                                     else{
-                                        //balls.get(i).setIntersectWithOtherBall(true);
-                                        //balls.get(j).setIntersectWithOtherBall(true);
                                         if(Math.abs(balls.get(i).mass - balls.get(j).mass) == 1) {
                                             if(balls.get(i).mass > balls.get(j).mass){
                                                 balls.get(i).position_current = balls.get(i).position_current.add(n.multiply(0.45 * overlap * 0.01));
