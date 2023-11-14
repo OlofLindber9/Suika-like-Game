@@ -12,12 +12,8 @@ import java.util.Objects;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.Timer;
-/**
- * Animated JPanel drawing the bouncing balls. No modifications are needed in this class.
- *
- * @author Simon Robillard
- *
- */
+
+
 @SuppressWarnings("serial")
 public final class Animator extends JPanel implements ActionListener {
 
@@ -36,26 +32,11 @@ public final class Animator extends JPanel implements ActionListener {
         this.ballFactory = new BallFactory(model, nextBall);
     }
 
-    /**
-     * Drawing scale
-     */
     private static final double pixelsPerMeter = 200;
-
-    /**
-     * Physical model
-     */
     private Model model;
 
     BallFactory ballFactory;
-
-    /**
-     * Timer that triggers redrawing
-     */
     private Timer timer;
-
-    /**
-     * Time interval between redrawing, also used as time step for the model
-     */
     private double deltaT;
 
     public void start() {
@@ -69,7 +50,6 @@ public final class Animator extends JPanel implements ActionListener {
     @Override
     protected void paintComponent(Graphics g) {
         Graphics2D g2 = (Graphics2D) g;
-        // clear the canvas
         g2.setColor(Color.WHITE);
         //här är en stor rektangel. Detta kanske inte funkar med Onclick.
         g2.fillRect(0, 0, this.getWidth(), this.getHeight());
@@ -168,8 +148,6 @@ public final class Animator extends JPanel implements ActionListener {
     }
 
     public static void main(String[] args) {
-        // Schedule a job for the event-dispatching thread:
-        // creating and showing this application's GUI.
         javax.swing.SwingUtilities.invokeLater(new Runnable() {
             public void run() {
                 Animator anim = new Animator(1920, 1080, 120);
