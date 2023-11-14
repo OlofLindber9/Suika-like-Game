@@ -17,7 +17,7 @@ Inspired by the popular [Suika Game](https://suikagame.com/), this Java game com
 
 ## Installation
 - Ensure you have Java installed on your computer.
-- Download the `SuikaGame.jar` file.
+- Download the `Olof_Suika.jar` file.
 - Run the JAR file using the command:
   ```shell
-  java -jar SuikaGame.jar
+  java -jar Olof_Suika.jar
