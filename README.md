@@ -20,4 +20,4 @@ Inspired by the popular [Suika Game](https://suikagame.com/), this Java game com
 - Download the `SuikaGame.jar` file.
 - Run the JAR file using the command:
   ```shell
-  java -jar YourGameName.jar
+  java -jar SuikaGame.jar
